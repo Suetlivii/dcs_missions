@@ -1,0 +1,322 @@
+campaign = 
+{
+    ["picture_EN"] = "Cover.jpg",
+    ["directory"] = "D:\\Google Drive\\Campaigns READY\\M-2000 Caucasus\\Baltic Dragon package\\Campaign 2.5\\",
+    ["startStage"] = 1,
+    ["picture"] = "Cover.jpg",
+    ["description"] = "8 August 2008\
+Short and intensive armed conflict starts first in the Georgian breakaway territory of South Ossetia, and then within a few days is being brought by Russian troops at the soil of Georgia proper. \
+\
+12 August 2008\
+A ceasefire between Russia and Georgia is signed under the auspices of EU, led by the French Presidency. A six point peace plan is adopted, envisaging non use of force, cessation of hostilities, granting of access to humanitarian aid, return of Georgian troops to usual quarters, withdrawal of Russian forces and opening of international discussions of the modalities of security and stability of South Ossetia and Abkhazia. UN is set to formalise the deal. EU call for international peacekeeping mission is rejected by Russia. \
+\
+15 August 2008\
+Russian forces bomb the highway connecting eastern and western Georgia, destroy the railway bridge at Kaspi, a lifeline to Georgia’s economy. Moreover, the Russian air force unleashes a series of air raids on Borjomi National Park, using fire bombs to inflict serious damage on what is regarded as a national treasure. Georgian government protest in the UN Security Council. Special resolution condemning Russian actions is vetoed by Moscow. France, feeling especially responsible for maintaining the ceasefire, sends a strongly worded warning to Russia. \
+\
+31 August 2008\
+Russian troops begin erecting fences and checkpoints at the ABL with South Ossetia and Abkhazia. Georgians protest again, but UNSC has no room of maneuver as it is blocked by Moscow. France warns Russia for the second time, and is backed by all EU-countries. NATO issues a strong statement, calling for immediate fulfilment of the 6-point plan. \
+\
+10 September 2008\
+US and France agree on the details of their next pilot exchange programme and decide that the training will take place in Georgia, as a sign of good will for the authorities and a warning to Russia. 2 USAF pilots will be flying Mirage-2000C's as part of 12-ship squadron sent to Georgia during a deployment planned to start in January 2009. Americans provide AWACS, C&C and transport planes. \
+\
+11 November 2008\
+Exchange of fire between Georgian soldiers and Russians in Orsantia, part of Georgia proper annexed and still controlled by the Russians. Russian jets overfly Georgia on numerous occasions, dropping several bombs and destroying a pipeline from Turkey. Ankara calls for establishing a \"no-fly\" zone over Georgia and breakaway territories for Russian planes. This issue is raised at the extraordinary NATO meeting, but no decisions are taken. \
+\
+December 2008 \
+Russian planes enter air space over South Ossetia and Abkhazia numerous times, although they are no longer stationed in Abkhazian bases. They also fly over Georgia proper. NATO issues another warning, UNSC remains blocked. \
+\
+\
+20 January 2009\
+2/5 Squadron arrives in Georgia together with two US pilots taking part in the exchange programme. \
+\
+25 January 2009 \
+Today.\
+\
+CAMPAIGN\
+The campaign puts you in the role of one of two US exchange pilots attached to 002.05 Squadron. You arrive in Georgia after the familiarisation training and you are to go through the more advanced exercises in Vaziani, while flying actual patrol missions in support of the NATO operations there. \
+\
+The campaign is roughly divided in two parts. First one is more focused on honing your skills and expanding on the things you have learned in the dedicated training missions (it is strongly advised that you fly these first). Therefore you can expect to get additional information on systems that were already covered as well as on new aspects of flying the M-2000C.  As the campaign progresses, the storyline evolves with it and slowly changes focus from training to more substantial duties.\
+",
+    ["description_EN"] = "8 August 2008\
+Short and intensive armed conflict starts first in the Georgian breakaway territory of South Ossetia, and then within a few days is being brought by Russian troops at the soil of Georgia proper. \
+\
+12 August 2008\
+A ceasefire between Russia and Georgia is signed under the auspices of EU, led by the French Presidency. A six point peace plan is adopted, envisaging non use of force, cessation of hostilities, granting of access to humanitarian aid, return of Georgian troops to usual quarters, withdrawal of Russian forces and opening of international discussions of the modalities of security and stability of South Ossetia and Abkhazia. UN is set to formalise the deal. EU call for international peacekeeping mission is rejected by Russia. \
+\
+15 August 2008\
+Russian forces bomb the highway connecting eastern and western Georgia, destroy the railway bridge at Kaspi, a lifeline to Georgia’s economy. Moreover, the Russian air force unleashes a series of air raids on Borjomi National Park, using fire bombs to inflict serious damage on what is regarded as a national treasure. Georgian government protest in the UN Security Council. Special resolution condemning Russian actions is vetoed by Moscow. France, feeling especially responsible for maintaining the ceasefire, sends a strongly worded warning to Russia. \
+\
+31 August 2008\
+Russian troops begin erecting fences and checkpoints at the ABL with South Ossetia and Abkhazia. Georgians protest again, but UNSC has no room of maneuver as it is blocked by Moscow. France warns Russia for the second time, and is backed by all EU-countries. NATO issues a strong statement, calling for immediate fulfilment of the 6-point plan. \
+\
+10 September 2008\
+US and France agree on the details of their next pilot exchange programme and decide that the training will take place in Georgia, as a sign of good will for the authorities and a warning to Russia. 2 USAF pilots will be flying Mirage-2000C's as part of 12-ship squadron sent to Georgia during a deployment planned to start in January 2009. Americans provide AWACS, C&C and transport planes. \
+\
+11 November 2008\
+Exchange of fire between Georgian soldiers and Russians in Orsantia, part of Georgia proper annexed and still controlled by the Russians. Russian jets overfly Georgia on numerous occasions, dropping several bombs and destroying a pipeline from Turkey. Ankara calls for establishing a \"no-fly\" zone over Georgia and breakaway territories for Russian planes. This issue is raised at the extraordinary NATO meeting, but no decisions are taken. \
+\
+December 2008 \
+Russian planes enter air space over South Ossetia and Abkhazia numerous times, although they are no longer stationed in Abkhazian bases. They also fly over Georgia proper. NATO issues another warning, UNSC remains blocked. \
+\
+\
+20 January 2009\
+2/5 Squadron arrives in Georgia together with two US pilots taking part in the exchange programme. \
+\
+25 January 2009 \
+Today.\
+\
+CAMPAIGN\
+The campaign puts you in the role of one of two US exchange pilots attached to 002.05 Squadron. You arrive in Georgia after the familiarisation training and you are to go through the more advanced exercises in Vaziani, while flying actual patrol missions in support of the NATO operations there. \
+\
+The campaign is roughly divided in two parts. First one is more focused on honing your skills and expanding on the things you have learned in the dedicated training missions (it is strongly advised that you fly these first). Therefore you can expect to get additional information on systems that were already covered as well as on new aspects of flying the M-2000C.  As the campaign progresses, the storyline evolves with it and slowly changes focus from training to more substantial duties.\
+",
+    ["stages"] = 
+    {
+        [13] = 
+        {
+            ["name"] = "Stage 13",
+            ["missions"] = 
+            {
+                [1] = 
+                {
+                    ["interval"] = 
+                    {
+                        [1] = 0,
+                        [2] = 100,
+                    }, -- end of ["interval"]
+                    ["file"] = "Mission 13 FINAL.miz",
+                    ["description"] = "",
+                    ["fullpath"] = "D:\\Google Drive\\Campaigns READY\\M-2000 Caucasus\\Baltic Dragon package\\Campaign 2.5\\Mission 13 FINAL.miz",
+                }, -- end of [1]
+            }, -- end of ["missions"]
+        }, -- end of [13]
+        [7] = 
+        {
+            ["name"] = "Stage 7",
+            ["missions"] = 
+            {
+                [1] = 
+                {
+                    ["interval"] = 
+                    {
+                        [1] = 0,
+                        [2] = 100,
+                    }, -- end of ["interval"]
+                    ["file"] = "Mission 07 FINAL.miz",
+                    ["description"] = "",
+                    ["fullpath"] = "D:\\Google Drive\\Campaigns READY\\M-2000 Caucasus\\Baltic Dragon package\\Campaign 2.5\\Mission 07 FINAL.miz",
+                }, -- end of [1]
+            }, -- end of ["missions"]
+        }, -- end of [7]
+        [1] = 
+        {
+            ["name"] = "Stage 1",
+            ["missions"] = 
+            {
+                [1] = 
+                {
+                    ["interval"] = 
+                    {
+                        [1] = 0,
+                        [2] = 100,
+                    }, -- end of ["interval"]
+                    ["file"] = "Mission 01 FINAL.miz",
+                    ["description"] = "",
+                    ["fullpath"] = "D:\\Google Drive\\Campaigns READY\\M-2000 Caucasus\\Baltic Dragon package\\Campaign 2.5\\Mission 01 FINAL.miz",
+                }, -- end of [1]
+            }, -- end of ["missions"]
+        }, -- end of [1]
+        [2] = 
+        {
+            ["name"] = "Stage 2",
+            ["missions"] = 
+            {
+                [1] = 
+                {
+                    ["interval"] = 
+                    {
+                        [1] = 0,
+                        [2] = 100,
+                    }, -- end of ["interval"]
+                    ["file"] = "Mission 02 FINAL.miz",
+                    ["description"] = "",
+                    ["fullpath"] = "D:\\Google Drive\\Campaigns READY\\M-2000 Caucasus\\Baltic Dragon package\\Campaign 2.5\\Mission 02 FINAL.miz",
+                }, -- end of [1]
+            }, -- end of ["missions"]
+        }, -- end of [2]
+        [4] = 
+        {
+            ["name"] = "Stage 4",
+            ["missions"] = 
+            {
+                [1] = 
+                {
+                    ["interval"] = 
+                    {
+                        [1] = 0,
+                        [2] = 100,
+                    }, -- end of ["interval"]
+                    ["file"] = "Mission 04 FINAL.miz",
+                    ["description"] = "",
+                    ["fullpath"] = "D:\\Google Drive\\Campaigns READY\\M-2000 Caucasus\\Baltic Dragon package\\Campaign 2.5\\Mission 04 FINAL.miz",
+                }, -- end of [1]
+            }, -- end of ["missions"]
+        }, -- end of [4]
+        [8] = 
+        {
+            ["name"] = "Stage 8",
+            ["missions"] = 
+            {
+                [1] = 
+                {
+                    ["interval"] = 
+                    {
+                        [1] = 0,
+                        [2] = 100,
+                    }, -- end of ["interval"]
+                    ["file"] = "Mission 08 FINAL.miz",
+                    ["description"] = "",
+                    ["fullpath"] = "D:\\Google Drive\\Campaigns READY\\M-2000 Caucasus\\Baltic Dragon package\\Campaign 2.5\\Mission 08 FINAL.miz",
+                }, -- end of [1]
+            }, -- end of ["missions"]
+        }, -- end of [8]
+        [9] = 
+        {
+            ["name"] = "Stage 9",
+            ["missions"] = 
+            {
+                [1] = 
+                {
+                    ["interval"] = 
+                    {
+                        [1] = 0,
+                        [2] = 100,
+                    }, -- end of ["interval"]
+                    ["file"] = "Mission 09 FINAL.miz",
+                    ["description"] = "",
+                    ["fullpath"] = "D:\\Google Drive\\Campaigns READY\\M-2000 Caucasus\\Baltic Dragon package\\Campaign 2.5\\Mission 09 FINAL.miz",
+                }, -- end of [1]
+            }, -- end of ["missions"]
+        }, -- end of [9]
+        [5] = 
+        {
+            ["name"] = "Stage 5",
+            ["missions"] = 
+            {
+                [1] = 
+                {
+                    ["interval"] = 
+                    {
+                        [1] = 0,
+                        [2] = 100,
+                    }, -- end of ["interval"]
+                    ["file"] = "Mission 05 FINAL.miz",
+                    ["description"] = "",
+                    ["fullpath"] = "D:\\Google Drive\\Campaigns READY\\M-2000 Caucasus\\Baltic Dragon package\\Campaign 2.5\\Mission 05 FINAL.miz",
+                }, -- end of [1]
+            }, -- end of ["missions"]
+        }, -- end of [5]
+        [10] = 
+        {
+            ["name"] = "Stage 10",
+            ["missions"] = 
+            {
+                [1] = 
+                {
+                    ["interval"] = 
+                    {
+                        [1] = 0,
+                        [2] = 100,
+                    }, -- end of ["interval"]
+                    ["file"] = "Mission 10 FINAL.miz",
+                    ["description"] = "",
+                    ["fullpath"] = "D:\\Google Drive\\Campaigns READY\\M-2000 Caucasus\\Baltic Dragon package\\Campaign 2.5\\Mission 10 FINAL.miz",
+                }, -- end of [1]
+            }, -- end of ["missions"]
+        }, -- end of [10]
+        [3] = 
+        {
+            ["name"] = "Stage 3",
+            ["missions"] = 
+            {
+                [1] = 
+                {
+                    ["interval"] = 
+                    {
+                        [1] = 0,
+                        [2] = 100,
+                    }, -- end of ["interval"]
+                    ["file"] = "Mission 03 FINAL.miz",
+                    ["description"] = "",
+                    ["fullpath"] = "D:\\Google Drive\\Campaigns READY\\M-2000 Caucasus\\Baltic Dragon package\\Campaign 2.5\\Mission 03 FINAL.miz",
+                }, -- end of [1]
+            }, -- end of ["missions"]
+        }, -- end of [3]
+        [6] = 
+        {
+            ["name"] = "Stage 6",
+            ["missions"] = 
+            {
+                [1] = 
+                {
+                    ["interval"] = 
+                    {
+                        [1] = 0,
+                        [2] = 100,
+                    }, -- end of ["interval"]
+                    ["file"] = "Mission 06 FINAL.miz",
+                    ["description"] = "",
+                    ["fullpath"] = "D:\\Google Drive\\Campaigns READY\\M-2000 Caucasus\\Baltic Dragon package\\Campaign 2.5\\Mission 06 FINAL.miz",
+                }, -- end of [1]
+            }, -- end of ["missions"]
+        }, -- end of [6]
+        [12] = 
+        {
+            ["name"] = "Stage 12",
+            ["missions"] = 
+            {
+                [1] = 
+                {
+                    ["interval"] = 
+                    {
+                        [1] = 0,
+                        [2] = 100,
+                    }, -- end of ["interval"]
+                    ["file"] = "Mission 12 FINAL.miz",
+                    ["description"] = "",
+                    ["fullpath"] = "D:\\Google Drive\\Campaigns READY\\M-2000 Caucasus\\Baltic Dragon package\\Campaign 2.5\\Mission 12 FINAL.miz",
+                }, -- end of [1]
+            }, -- end of ["missions"]
+        }, -- end of [12]
+        [11] = 
+        {
+            ["name"] = "Stage 11",
+            ["missions"] = 
+            {
+                [1] = 
+                {
+                    ["interval"] = 
+                    {
+                        [1] = 0,
+                        [2] = 100,
+                    }, -- end of ["interval"]
+                    ["file"] = "Mission 11 FINAL.miz",
+                    ["description"] = "",
+                    ["fullpath"] = "D:\\Google Drive\\Campaigns READY\\M-2000 Caucasus\\Baltic Dragon package\\Campaign 2.5\\Mission 11 FINAL.miz",
+                }, -- end of [1]
+            }, -- end of ["missions"]
+        }, -- end of [11]
+    }, -- end of ["stages"]
+    ["pictureSuccess_EN"] = "Success.jpg",
+    ["pictureFailed"] = "Cover fail.jpg",
+    ["name"] = "M-2000C Campaign",
+    ["pictureSuccess"] = "Success.jpg",
+    ["name_EN"] = "M-2000C Campaign",
+    ["version"] = 1,
+    ["pictureFailed_EN"] = "Cover fail.jpg",
+    ["fullPath"] = "D:\\Google Drive\\Campaigns READY\\M-2000 Caucasus\\Baltic Dragon package\\Campaign 2.5\\M-2000C Campaign.cmp",
+    ["necessaryUnits"] = 
+    {
+        ["M-2000C"] = "M-2000C",
+    }, -- end of ["necessaryUnits"]
+} -- end of campaign

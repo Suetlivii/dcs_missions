@@ -1,0 +1,306 @@
+PLANES: 
+MiG-25PD
+F-5E-3
+KC130
+L-39C
+A-10C
+Yak-52
+C-101CC
+MiG-31
+Tu-142
+B-1B
+AV8BNA
+F-16A MLU
+Tu-22M3
+A-10A
+F-86F Sabre
+I-16
+TF-51D
+L-39ZA
+F-14B
+MiG-19P
+M-2000C
+F-5E
+Tu-160
+Tornado IDS
+Su-30
+SpitfireLFMkIXCW
+RQ-1A Predator
+MiG-15bis
+MiG-29G
+Su-25
+MiG-29A
+F-117A
+MQ-9 Reaper
+Tu-95MS
+F-16C bl.52d
+Hawk
+Su-24MR
+S-3B Tanker
+MiG-29S
+Su-17M4
+Su-33
+C-17A
+Su-27
+E-3A
+F-16A
+KJ-2000
+F-4E
+KC-135
+Yak-40
+B-52H
+Bf-109K-4
+An-30M
+An-26B
+P-51D
+IL-76MD
+KC135MPRS
+SpitfireLFMkIX
+AJS37
+A-50
+MiG-21Bis
+P-51D-30-NA
+FW-190D9
+F-15C
+Su-24M
+C-101EB
+MiG-23MLD
+Christen Eagle II
+F-14A
+Mirage 2000-5
+Su-25T
+S-3B
+Su-34
+E-2C
+MiG-27K
+IL-78M
+F/A-18C
+F-15E
+FA-18C_hornet
+C-130
+Tornado GR4
+F-16C bl.50
+J-11A
+MiG-25RBT
+Su-25TM
+
+
+SHIPS: 
+Dry-cargo ship-2
+SOM
+REZKY
+speedboat
+ZWEZDNY
+052B
+TICONDEROG
+MOLNIYA
+PERRY
+VINSON
+MOSCOW
+PIOTR
+Stennis
+NEUSTRASH
+ELNYA
+KILO
+KUZNECOW
+LHA_Tarawa
+Dry-cargo ship-1
+052C
+ALBATROS
+054A
+
+
+HELICOPTERS:
+SA342Mistral
+AH-1W
+UH-60A
+Mi-24V
+Mi-8MT
+SA342L
+Ka-50
+SH-60B
+Mi-26
+OH-58D
+SA342Minigun
+Mi-28N
+SA342M
+AH-64D
+CH-47D
+CH-53E
+UH-1H
+AH-64A
+
+
+ARMOR:
+AAV7
+BTR-80
+Cobra
+M1043 HMMWV Armament
+M1126 Stryker ICV
+M-113
+MTLB
+BRDM-2
+BTR_D
+Boman
+M1045 HMMWV TOW
+M1134 Stryker ATGM
+BMD-1
+BMP-1
+BMP-2
+BMP-3
+LAV-25
+M-2 Bradley
+Marder
+MCV-80
+Challenger2
+Leclerc
+Leopard1A3
+Leopard-2
+M-1 Abrams
+M-60
+Merkava_Mk4
+T-55
+T-72B
+T-80UD
+T-90
+M1128 Stryker MGS
+TPZ
+
+
+AIR DEFENCE:
+Vulcan
+ZU-23 Emplacement Closed
+ZU-23 Emplacement
+ZU-23 Insurgent
+ZU-23 Closed Insurgent
+Ural-375 ZU-23 Insurgent
+Ural-375 ZU-23
+Dog Ear radar
+1L13 EWR
+55G6 EWR
+rapier_fsa_blindfire_radar
+rapier_fsa_launcher
+rapier_fsa_optical_tracker_unit
+M1097 Avenger
+M48 Chaparral
+Hawk cwar
+Hawk ln
+Hawk pcp
+Hawk sr
+Hawk tr
+M6 Linebacker
+Patriot AMG
+Patriot ECS
+Patriot EPP
+Patriot cp
+Patriot ln
+Patriot str
+Roland ADS
+Roland Radar
+S-300PS 54K6 cp
+S-300PS 5P85C ln
+S-300PS 5P85D ln
+S-300PS 40B6MD sr
+S-300PS 64H6E sr
+S-300PS 40B6M tr
+SA-11 Buk CC 9S470M1
+SA-11 Buk LN 9A310M1
+SA-11 Buk SR 9S18M1
+Strela-10M3
+Tor 9A331
+SA-18 Igla comm
+Igla manpad INS
+SA-18 Igla manpad
+SA-18 Igla-S comm
+SA-18 Igla-S manpad
+2S6 Tunguska
+S_75M_Volhov
+SNR_75V
+5p73 s-125 ln
+snr s-125 tr
+Kub 2P25 ln
+Kub 1S91 str
+Osa 9A33 ln
+Strela-1 9P31
+p-19 s-125 sr
+Stinger comm
+Stinger comm dsr
+Gepard
+ZSU-23-4 Shilka
+Soldier stinger
+
+
+ARTILLERY:
+2B11 mortar
+Smerch
+Uragan_BM-27
+Grad-URAL
+MLRS FDDM
+MLRS
+SAU Gvozdika
+SAU Msta
+SAU Akatsia
+SAU 2-C9
+M-109
+SpGH_Dana
+
+
+FORTIFICATION:
+houseA_arm
+house1arm
+Sandbox
+Bunker
+outpost
+outpost_road
+house2arm
+
+
+INFANTRY:
+Soldier M4 GRG
+Soldier M4
+Infantry AK Ins
+Infantry AK
+Paratrooper AKS-74
+Paratrooper RPG-16
+Soldier AK
+Soldier M249
+Soldier RPG
+
+
+MISSILES:
+Silkworm_SR
+hy_launcher
+
+UNARMED:
+Hummer
+Tigr_233036
+Predator GCS
+Predator TrojanSpirit
+SKP-11
+Ural-375 PBU
+ATMZ-5
+ATZ-10
+Ural-4320 APA-5D
+ZiL-131 APA-80
+HEMTT TFFT
+Land_Rover_101_FC
+Land_Rover_109_S3
+M978 HEMTT Tanker
+Ural ATsP-6
+GAZ-3307
+GAZ-3308
+GAZ-66
+IKARUS Bus
+KAMAZ Truck
+KrAZ6322
+LAZ Bus
+M 818
+MAZ-6303
+UAZ-469
+Ural-375
+Ural-4320-31
+Ural-4320T
+VAZ Car
+ZIL-131 KUNG
+ZIL-4331
+Trolley bus
