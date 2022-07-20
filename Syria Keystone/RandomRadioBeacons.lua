@@ -21,23 +21,26 @@ function RandomRadioBeacons:SetSound(sound_file_name)
     self._sound_file_name = sound_file_name
 end
 
-function RandomRadioBeacons:CreateRandomBeacons(unit_name_prefix)
+function RandomRadioBeacons:ActivateFreq(unit_name, freq, modulation)
+    local unit_radio = UNIT:FindByName(unit_name):GetRadio()
+    unit_radio:SetFileName(self._sound_file_name)
+    unit_radio:SetFrequency(freq)
+    unit_radio:SetModulation(modulation)
+    unit_radio:SetLoop(true)
+    unit_radio:Broadcast()
+    -- MESSAGE:New(tostring("For unit " .. unit_name .. " freq is " .. freq), 10, "DEBUG", false):ToAll()
+end
+
+function RandomRadioBeacons:ActivateRandomBeacons(unit_name_prefix)
     -- Find all units with given prefix
     local units_set = SET_UNIT:New():FilterPrefixes(unit_name_prefix):FilterOnce():GetSetNames()
 
     -- For each unit
     for k, v in pairs(units_set) do
-        local unit_radio = UNIT:FindByName(v):GetRadio()
-
         random_freq = math.random() * (self._freq_max - self._freq_min) + self._freq_min
         random_freq = random_freq - (random_freq % self._min_step)
-        -- MESSAGE:New(tostring("For unit " .. v .. " freq is " .. random_freq), 10, "DEBUG", false):ToAll()
 
-        unit_radio:SetFileName(self._sound_file_name)
-        unit_radio:SetFrequency(random_freq)
-        unit_radio:SetModulation(self._modulation)
-        unit_radio:SetLoop(true)
-        unit_radio:Broadcast()
+        self:ActivateFreq(v, random_freq, self._modulation)
     end
 
 end
