@@ -95,36 +95,15 @@
 -- end
 
 -- Red Hama IADS
-red_iads = SkynetIADS:create('red_iads')
-red_iads:addEarlyWarningRadarsByPrefix('EW_RED')
-red_iads:addSAMSitesByPrefix('SAM_RED')
-red_iads:activate()	
-
--- -- Red Damascus IADS
--- red_damascus_iads = SkynetIADS:create('red_damascus')
--- red_damascus_iads:addEarlyWarningRadarsByPrefix('EW_RED_DAMASCUS')
--- red_damascus_iads:addSAMSitesByPrefix('SAM_RED_DAMASCUS')
--- red_damascus_iads:addRadioMenu()
--- red_damascus_iads:activate()
-
--- -- Red Palmyra IADS
--- red_palmyra_iads = SkynetIADS:create('red_palmyra')
--- red_palmyra_iads:addEarlyWarningRadarsByPrefix('EW_RED_PALMYRA')
--- red_palmyra_iads:addSAMSitesByPrefix('SAM_RED_PALMYRA')
--- red_palmyra_iads:addRadioMenu()
--- red_palmyra_iads:activate()
-
--- -- Red Tabqa IADS
--- red_tabqa_iads = SkynetIADS:create('red_tabqa')
--- red_tabqa_iads:addEarlyWarningRadarsByPrefix('EW_RED_TABQA')
--- red_tabqa_iads:addSAMSitesByPrefix('SAM_RED_TABQA')
--- red_tabqa_iads:addRadioMenu()
--- red_tabqa_iads:activate()
+blue_iads = SkynetIADS:create('blue_iads')
+blue_iads:addEarlyWarningRadarsByPrefix('EW_BLUE')
+blue_iads:addSAMSitesByPrefix('SAM_BLUE')
+blue_iads:activate()	
 
 ---debug settings remove from here on if you do not wan't any output on what the IADS is doing by default
 if ME_isDebugMode == true then
-    red_iads:addRadioMenu()
-    local iadsDebug = red_iads:getDebugSettings()
+    blue_iads:addRadioMenu()
+    local iadsDebug = blue_iads:getDebugSettings()
     iadsDebug.IADSStatus = true
     iadsDebug.radarWentDark = true
     iadsDebug.contacts = true
