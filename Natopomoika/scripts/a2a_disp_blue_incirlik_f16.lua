@@ -1,4 +1,4 @@
-local blue_cap_chance = 0.65
+local blue_cap_chance = 1.0
 local blue_gci_chance = 0.85
 
 if ME_isDebugMode == true then
@@ -7,7 +7,7 @@ if ME_isDebugMode == true then
 end
 
 -- in minutes
-local blue_cap_interval_min = 20 * 60
+local blue_cap_interval_min = 15 * 60
 local blue_cap_interval_max = 40 * 60
 
 if ME_isDebugMode == true then

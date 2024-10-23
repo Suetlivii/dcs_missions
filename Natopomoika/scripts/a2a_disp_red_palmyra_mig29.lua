@@ -29,27 +29,27 @@ if ME_isRedCap == true then
     local redA2ADispatcher = AI_A2A_DISPATCHER:New( redDetection )
 
     redA2ADispatcher:SetEngageRadius( 80000 )
-    redA2ADispatcher:SetGciRadius( 220000 )
-    redA2ADispatcher:SetDisengageRadius(250000)
+    redA2ADispatcher:SetGciRadius( 150000 )
+    redA2ADispatcher:SetDisengageRadius(180000)
     redA2ADispatcher:SetTacticalDisplay( ME_isDebugMode )
-    local redA2ACapZone = ZONE:New("red_cap_zone")
+    local redA2ACapZone = ZONE:New("red_cap_zone_palmyra")
 
     --https://flightcontrol-master.github.io/MOOSE_DOCS/Documentation/Wrapper.Airbase.html
-    redA2ADispatcher:SetSquadron( "jeff_damascus", AIRBASE.Syria.Al_Dumayr, { "cap_jeff_damascus" }, 12 )
-    redA2ADispatcher:SetSquadronTakeoffFromParkingCold( "jeff_damascus" )
-    redA2ADispatcher:SetSquadronLandingAtRunway( "jeff_damascus" )
-    redA2ADispatcher:SetSquadronFuelThreshold( "jeff_damascus", 0.30 )
-    redA2ADispatcher:SetSquadronGrouping( "jeff_damascus", 2 )
-    redA2ADispatcher:SetSquadronOverhead( "jeff_damascus", 1 )
+    redA2ADispatcher:SetSquadron( "mig29_palmyra", AIRBASE.Syria.Palmyra, { "cap_mig29_palmyra" }, 6 )
+    redA2ADispatcher:SetSquadronTakeoffFromParkingCold( "mig29_palmyra" )
+    redA2ADispatcher:SetSquadronLandingAtRunway( "mig29_palmyra" )
+    redA2ADispatcher:SetSquadronFuelThreshold( "mig29_palmyra", 0.30 )
+    redA2ADispatcher:SetSquadronGrouping( "mig29_palmyra", 2 )
+    redA2ADispatcher:SetSquadronOverhead( "mig29_palmyra", 1 )
 
     if math.random() <= red_gci_chance then
-        redA2ADispatcher:SetSquadronGci( "jeff_damascus", 750, 1100 )
+        redA2ADispatcher:SetSquadronGci( "mig29_palmyra", 750, 1100 )
     end
 
     if math.random() <= red_cap_chance then
         --min alt, max alt, min patrol speed, max patrol speed, min engage speed, max engage speed, radio/baro alt
-        redA2ADispatcher:SetSquadronCap( "jeff_damascus", redA2ACapZone, 5000, 9000, 600, 750, 800, 1100, "RADIO" )
+        redA2ADispatcher:SetSquadronCap( "mig29_palmyra", redA2ACapZone, 5000, 9000, 600, 750, 800, 1100, "RADIO" )
         --name, max spawned groups, min time sec, max time sec
-        redA2ADispatcher:SetSquadronCapInterval( "jeff_damascus", 1, red_cap_interval_min, red_cap_interval_max, 1 )
+        redA2ADispatcher:SetSquadronCapInterval( "mig29_palmyra", 2, red_cap_interval_min, red_cap_interval_max, 1 )
     end
 end
