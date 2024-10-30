@@ -62,4 +62,8 @@
 *.3dm
 *.max
 
+# Custom assets
 *.psd
+*.rar
+*.acmi
+

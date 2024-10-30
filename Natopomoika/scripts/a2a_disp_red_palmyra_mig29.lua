@@ -1,4 +1,4 @@
-local red_cap_chance = 0.65
+local red_cap_chance = 0.75
 local red_gci_chance = 0.85
 
 if ME_isDebugMode == true then
@@ -28,9 +28,9 @@ if ME_isRedCap == true then
     -- Setup the A2A dispatcher, and initialize it.
     local redA2ADispatcher = AI_A2A_DISPATCHER:New( redDetection )
 
-    redA2ADispatcher:SetEngageRadius( 80000 )
+    redA2ADispatcher:SetEngageRadius( 110000 )
     redA2ADispatcher:SetGciRadius( 150000 )
-    redA2ADispatcher:SetDisengageRadius(180000)
+    redA2ADispatcher:SetDisengageRadius( 200000 )
     redA2ADispatcher:SetTacticalDisplay( ME_isDebugMode )
     local redA2ACapZone = ZONE:New("red_cap_zone_palmyra")
 

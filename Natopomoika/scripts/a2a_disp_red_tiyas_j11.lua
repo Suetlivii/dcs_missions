@@ -1,4 +1,4 @@
-local red_cap_chance = 0.65
+local red_cap_chance = 0.75
 local red_gci_chance = 0.85
 
 if ME_isDebugMode == true then
@@ -28,14 +28,14 @@ if ME_isRedCap == true then
     -- Setup the A2A dispatcher, and initialize it.
     local redA2ADispatcher = AI_A2A_DISPATCHER:New( redDetection )
 
-    redA2ADispatcher:SetEngageRadius( 80000 )
+    redA2ADispatcher:SetEngageRadius( 110000 )
     redA2ADispatcher:SetGciRadius( 150000 )
-    redA2ADispatcher:SetDisengageRadius(180000)
+    redA2ADispatcher:SetDisengageRadius( 220000 )
     redA2ADispatcher:SetTacticalDisplay( ME_isDebugMode )
     local redA2ACapZone = ZONE:New("red_cap_zone_palmyra")
 
     --https://flightcontrol-master.github.io/MOOSE_DOCS/Documentation/Wrapper.Airbase.html
-    redA2ADispatcher:SetSquadron( "j11_tiyas", AIRBASE.Syria.Tiyas, { "cap_j11_tiyas" }, 4 )
+    redA2ADispatcher:SetSquadron( "j11_tiyas", AIRBASE.Syria.Tiyas, { "cap_j11_tiyas" }, 6 )
     redA2ADispatcher:SetSquadronTakeoffFromParkingCold( "j11_tiyas" )
     redA2ADispatcher:SetSquadronLandingAtRunway( "j11_tiyas" )
     redA2ADispatcher:SetSquadronFuelThreshold( "j11_tiyas", 0.30 )
@@ -50,6 +50,6 @@ if ME_isRedCap == true then
         --min alt, max alt, min patrol speed, max patrol speed, min engage speed, max engage speed, radio/baro alt
         redA2ADispatcher:SetSquadronCap( "j11_tiyas", redA2ACapZone, 5000, 9000, 600, 750, 800, 1100, "RADIO" )
         --name, max spawned groups, min time sec, max time sec
-        redA2ADispatcher:SetSquadronCapInterval( "j11_tiyas", 1, red_cap_interval_min, red_cap_interval_max, 1 )
+        redA2ADispatcher:SetSquadronCapInterval( "j11_tiyas", 2, red_cap_interval_min, red_cap_interval_max, 1 )
     end
 end

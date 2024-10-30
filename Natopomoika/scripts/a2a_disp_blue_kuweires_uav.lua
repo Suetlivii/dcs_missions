@@ -1,5 +1,4 @@
 local blue_cap_chance = 1.0
-local blue_gci_chance = 0.85
 
 if ME_isDebugMode == true then
     blue_cap_chance = 1.0
