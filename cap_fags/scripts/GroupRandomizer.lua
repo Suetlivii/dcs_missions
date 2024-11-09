@@ -69,7 +69,7 @@ function GroupRandomizer:KillPercent(_groupName, _percent)
     if group == nil then 
         return false
     end
-    Debug:Log("GroupRandomizer:KillPercent found group with percent kill key word, group name is " .. groupName .. " percent is " .. _percent )
+    Debug:Log("GroupRandomizer:KillPercent found group with percent kill key word, group name is " .. groupName .. " percent is " .. _percent)
 
     local unitsList = group:GetUnits()
 
