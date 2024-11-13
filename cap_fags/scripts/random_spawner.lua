@@ -59,7 +59,7 @@ function RandomGroupSpawner:SetRandomizedRouteOptions(waypoint_offset_km, route_
 end
 
 function RandomGroupSpawner:_activate_group_scheduled(group_name, activation_time, randomize_route, route_offset_m, route_alt_m)
-    local _spawned_vehicle = SPAWN:New(group_name):InitLimit(100, 1)
+    local _spawned_vehicle = SPAWN:New(group_name):InitKeepUnitNames():InitLimit(100, 1)
 
     if randomize_route == true then 
         _spawned_vehicle:InitRandomizeRoute(0, 0, route_offset_m, route_alt_m)

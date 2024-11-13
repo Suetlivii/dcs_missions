@@ -1,1 +1,1 @@
-local rgc = RandomGroupSpawner:New(true):StartGroupNameParsing("RGS")
+local rgc = RandomGroupSpawner:New(false):StartGroupNameParsing("RGS")
