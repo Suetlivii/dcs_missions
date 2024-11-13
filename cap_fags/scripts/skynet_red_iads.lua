@@ -122,7 +122,7 @@ red_iads:activate()
 -- red_tabqa_iads:activate()
 
 ---debug settings remove from here on if you do not wan't any output on what the IADS is doing by default
-if ME_isDebugMode == true then
+if ME_isIADSDebugMode == true then
     red_iads:addRadioMenu()
     local iadsDebug = red_iads:getDebugSettings()
     iadsDebug.IADSStatus = true

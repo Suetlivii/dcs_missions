@@ -21,7 +21,7 @@ function RandomGroupSpawner:StartGroupNameParsing(group_prefix)
 
     for k, v in pairs(groupSetNames) do 
         if self._is_debug == true then 
-            MESSAGE:New(tostring("Found group "..v), 25, "DEBUG", false):ToAll()
+            -- MESSAGE:New(tostring("Found group "..v), 25, "DEBUG", false):ToAll()
         end
         self:_parse_group_name_and_schedule(v)
     end
@@ -61,25 +61,25 @@ end
 function RandomGroupSpawner:_activate_group_scheduled(group_name, activation_time, randomize_route, route_offset_m, route_alt_m)
     local _spawned_vehicle = SPAWN:New(group_name):InitKeepUnitNames():InitLimit(100, 1)
 
-    if randomize_route == true then 
+    if randomize_route == true and route_offset_m and route_alt_m then 
         _spawned_vehicle:InitRandomizeRoute(0, 0, route_offset_m, route_alt_m)
     end
 
     _spawned_vehicle:SpawnScheduled(activation_time, 0, true)
 
     if self._is_debug == true then 
-        MESSAGE:New(tostring("Activated group "..group_name), 25, "DEBUG", false):ToAll()
+        -- MESSAGE:New(tostring("Activated group "..group_name), 25, "DEBUG", false):ToAll()
     end
 end
 
 function RandomGroupSpawner:_parse_group_name_and_schedule(group_name)
     local _group_name = tostring(group_name):lower()
 
-    local _chance = "undef"
-    local _time_min = "undef"
-    local _time_max = "undef"
-    local _route_offset_km= "undef"
-    local _route_alt_km= "undef"
+    local _chance = false
+    local _time_min = false
+    local _time_max = false
+    local _route_offset_km= false
+    local _route_alt_km= false
 
     if _group_name:find("chance") then
         _chance = tonumber(string.match(_group_name, "chance<(.-)>"))
@@ -98,11 +98,13 @@ function RandomGroupSpawner:_parse_group_name_and_schedule(group_name)
     end
 
     if self._is_debug == true then 
-        MESSAGE:New(tostring("For group "..group_name.." parsed data is:\n".." chance=".._chance.." time_min=".._time_min.." time_max=".._time_max.." route_offset_km=".._route_offset_km.." route_alt_km=".._route_alt_km), 25, "DEBUG", false):ToAll()
+        -- MESSAGE:New(tostring("For group "..group_name.." parsed data is:\n".." chance=".._chance.." time_min=".._time_min.." time_max=".._time_max.." route_offset_km=".._route_offset_km.." route_alt_km=".._route_alt_km), 25, "DEBUG", false):ToAll()
     end
 
     -- randomize time in minutes
-    local _randomized_time_seconds = math.random(_time_min*60, _time_max*60)
+    if _time_min and _time_max then
+        local _randomized_time_seconds = math.random(_time_min*60, _time_max*60)
+    end
 
     -- check random chance for activation
     if math.random() <= _chance then
