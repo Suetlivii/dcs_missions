@@ -66,20 +66,16 @@ function RandomGroupSpawner:_activate_group_scheduled(group_name, activation_tim
     end
 
     _spawned_vehicle:SpawnScheduled(activation_time, 0, true)
-
-    if self._is_debug == true then 
-        -- MESSAGE:New(tostring("Activated group "..group_name), 25, "DEBUG", false):ToAll()
-    end
 end
 
 function RandomGroupSpawner:_parse_group_name_and_schedule(group_name)
     local _group_name = tostring(group_name):lower()
 
-    local _chance = false
-    local _time_min = false
-    local _time_max = false
-    local _route_offset_km= false
-    local _route_alt_km= false
+    local _chance = nil
+    local _time_min = nil
+    local _time_max = nil
+    local _route_offset_km= nil
+    local _route_alt_km= nil
 
     if _group_name:find("chance") then
         _chance = tonumber(string.match(_group_name, "chance<(.-)>"))
@@ -102,14 +98,12 @@ function RandomGroupSpawner:_parse_group_name_and_schedule(group_name)
     end
 
     -- randomize time in minutes
-    if _time_min and _time_max then
-        local _randomized_time_seconds = math.random(_time_min*60, _time_max*60)
-    end
+    local _randomized_time_seconds = math.random(_time_min*60, _time_max*60)
 
     -- check random chance for activation
     if math.random() <= _chance then
         if self._is_debug == true then 
-            MESSAGE:New(tostring(group_name.." will be spawned"), 25, "DEBUG", false):ToAll()
+            MESSAGE:New(tostring(group_name.." will be activated at ".._randomized_time_seconds.."s, mint=".._time_min..", maxt=".._time_max..", route_offset_km=".._route_offset_km..", route alt_km=".._route_alt_km), 25, "DEBUG", false):ToAll()
         end
         self:_activate_group_scheduled(group_name, _randomized_time_seconds, true, _route_offset_km*1000, _route_alt_km*1000)
     end

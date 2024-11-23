@@ -1,0 +1,36 @@
+If there was a tower your initial transmission would start with "Incirlik Tower, Callsign..." but because there is none we can omit tower. After comms are established with tower you would omit tower from subsequent calls.
+Initial is defined as the point 3 miles from runway at 2000 feet, this is to altitude deconflict aircraft performing an overhead with aircraft that are on final for straight in.
+Flight lead talks to ATC for the whole flight, except for base turn and clearing the active runway.
+IRL tower would give you traffic and tell you to follow others in the pattern, example: "Viper 1, traffic flight of 2 F-16's midfield downwind, report in sight" For our missions we can just tell each other that we have traffic in sight if needed.
+
+Phraseology:
+
+Inbound to airfield:
+"[callsign], single ship/flight of [#][type aircraft], 15 miles [north/east/west/south] of the field, inbound for overhead/straight in"
+
+At reporting point:
+[callsign], [reporting point i.e. Eagle] for initial/straight in runway 5
+
+At 3 mile initial/5 mile final
+[callsign], initial/5 mile final runway 5
+
+Optional:
+[callsign], over the numbers runway 5
+
+When turning base:
+[callsign], base, gear, stop runway 5
+
+When off the active runway
+[callsign], off of the active, taxi to park
+
+Example:
+
+"Viper 1, flight of 2 F-16's, 15 miles south of the field, inbound for overhead runway 5"
+"Viper 1, Eagle for initial runway 5"
+"Viper 1, initial runway 5"
+"Viper 1, over the numbers runway 5"
+"Viper 1, base, gear, stop runway 5"
+"Viper 2, base, gear, stop runway 5"
+"Viper 1, off of the active at taxiway echo, taxi to park"
+"Viper 2, off of the active at taxiway echo, taxi to park"
+
