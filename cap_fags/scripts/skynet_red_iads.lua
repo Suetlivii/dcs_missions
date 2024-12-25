@@ -98,23 +98,7 @@
 red_iads = SkynetIADS:create('red_iads')
 red_iads:addEarlyWarningRadarsByPrefix('EW_RED')
 red_iads:addSAMSitesByPrefix('SAM_RED')
-red_iads:activate()	
-
--- Add special SAMs
--- Raqqa SA-10
-red_iads:addSAMSite('SPEC_SA10_RAQQA')
-red_iads:getSAMSiteByGroupName('SPEC_SA10_RAQQA'):setGoLiveRangeInPercent(75)
-red_iads:getSAMSiteByGroupName('SPEC_SA10_RAQQA'):setCanEngageHARM(false)
-
--- Tabqa SA-5 1
-red_iads:addSAMSite('SPEC_SA5_TABQA_1')
-red_iads:getSAMSiteByGroupName('SPEC_SA5_TABQA_1'):setGoLiveRangeInPercent(100)
-red_iads:getSAMSiteByGroupName('SPEC_SA5_TABQA_1'):setCanEngageAirWeapons(false)
-
--- Raqqa SA-5 1
-red_iads:addSAMSite('SPEC_SA5_RAQQA_1')
-red_iads:getSAMSiteByGroupName('SPEC_SA5_RAQQA_1'):setGoLiveRangeInPercent(100)
-red_iads:getSAMSiteByGroupName('SPEC_SA5_RAQQA_1'):setCanEngageAirWeapons(false)
+red_iads:activate()
 
 -- -- Red Damascus IADS
 -- red_damascus_iads = SkynetIADS:create('red_damascus')
